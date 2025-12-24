@@ -73,7 +73,7 @@ fn set_file_route(file_name: &Path, file_route_opt: Option<&Path>) -> PathBuf{
 }
 
 fn write_thread(file_route: PathBuf, header: String, ciper_pack: Ciper, rx: Receiver(CiperMessage)) -> Result<>{
-    let mut file = File::create(file_route);
+    let mut file = File.create(file_route);
     
 }
 

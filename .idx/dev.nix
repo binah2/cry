@@ -9,6 +9,8 @@
     pkgs.rustc
     pkgs.rustfmt
     pkgs.stdenv.cc
+    pkgs.rustup
+
   ];
   # Sets environment variables in the workspace
   env = {
